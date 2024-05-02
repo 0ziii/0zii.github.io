@@ -1,6 +1,6 @@
 const config = {
   // Site info
-  siteTitle: "0zii log", // Site title.
+  siteTitle: "0ziii log", // Site title.
   siteTitleShort: "GB Template", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: "Gatsby Blog Template", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024x1024.png", // Logo used for SEO and manifest.
@@ -64,11 +64,11 @@ const config = {
   sidebarSticky: true,
   sidebarLinks: [
     {
-      label: "0zii Github",
+      label: "0ziii Github",
       url: "https://0ziii.github.io/",
     },
     {
-      label: "0zii LinkedIn",
+      label: "0ziii LinkedIn",
       url: "",
     }
   ],
@@ -114,7 +114,7 @@ const config = {
     { label: "Contact", url: "/contact" },
   ],
   copyright:
-    "©0zii, Built with Gatsby-blog-template",
+    "©0ziii, Built with Gatsby-blog-template",
   // Use for manifest
   themeColor: "#2196F3", // Used for setting manifest and progress theme colors.
   backgroundColor: "#FFF", // Used for setting manifest background color.
