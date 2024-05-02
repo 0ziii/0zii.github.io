@@ -121,41 +121,41 @@ const config = {
   ],
   // Use for footer
   socialLinks: [
-    {
-      label: "Codepen",
-      url: "https://codepen.io/completejavascript/",
-      iconClassName: "fab codepen",
-    },
-    {
-      label: "FreeCodeCamp",
-      url: "", // Ignore
-      iconClassName: "fab free-code-camp",
-    },
-    {
-      label: "GitHub",
-      url: "https://github.com/completejavascript",
-      iconClassName: "fab github",
-    },
-    {
-      label: "Facebook",
-      url: "https://www.facebook.com/completejavascript/",
-      iconClassName: "fab facebook-f",
-    },
-    {
-      label: "Linkedin",
-      url: "https://www.linkedin.com/in/completejavascript/",
-      iconClassName: "fab linkedin-in",
-    },
-    {
-      label: "Twitter",
-      url: "https://twitter.com/CmpltJavaScript",
-      iconClassName: "fab twitter",
-    },
-    {
-      label: "RSS",
-      url: "https://gb-template.netlify.com/rss.xml",
-      iconClassName: "fas rss",
-    },
+    // {
+    //   label: "Codepen",
+    //   url: "https://codepen.io/completejavascript/",
+    //   iconClassName: "fab codepen",
+    // },
+    // {
+    //   label: "FreeCodeCamp",
+    //   url: "", // Ignore
+    //   iconClassName: "fab free-code-camp",
+    // },
+    // {
+    //   label: "GitHub",
+    //   url: "https://github.com/completejavascript",
+    //   iconClassName: "fab github",
+    // },
+    // {
+    //   label: "Facebook",
+    //   url: "https://www.facebook.com/completejavascript/",
+    //   iconClassName: "fab facebook-f",
+    // },
+    // {
+    //   label: "Linkedin",
+    //   url: "https://www.linkedin.com/in/completejavascript/",
+    //   iconClassName: "fab linkedin-in",
+    // },
+    // {
+    //   label: "Twitter",
+    //   url: "https://twitter.com/CmpltJavaScript",
+    //   iconClassName: "fab twitter",
+    // },
+    // {
+    //   label: "RSS",
+    //   url: "https://gb-template.netlify.com/rss.xml",
+    //   iconClassName: "fas rss",
+    // },
   ],
   footerLinks: [
     { label: "Home", url: "/" },
