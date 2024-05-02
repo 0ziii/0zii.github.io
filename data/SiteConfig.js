@@ -1,6 +1,6 @@
 const config = {
   // Site info
-  siteTitle: "Gatsby Blog Template", // Site title.
+  siteTitle: "0zii log", // Site title.
   siteTitleShort: "GB Template", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: "Gatsby Blog Template", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024x1024.png", // Logo used for SEO and manifest.
@@ -30,7 +30,7 @@ const config = {
   btnLoadmore: "Load more",
   homeHasLoadmore: false,
   homeHasThumbnail: true,
-  homeHeader: "Home",
+  homeHeader: "",
   homeMoreArticles: "More articles",
   // Use for page
   pathPrefixPagination: "/page", // Prefix path for pagination
@@ -64,48 +64,29 @@ const config = {
   sidebarSticky: true,
   sidebarLinks: [
     {
-      label: "Complete JavaScript",
-      url: "https://completejavascript.com/",
+      label: "0zii Github",
+      url: "https://0ziii.github.io/",
     },
     {
-      label: "Lam Pham Blog",
-      url: "https://phamvanlam.com/",
-    },
-    {
-      label: "Lam Pham Portfolio",
-      url: "http://about.phamvanlam.com/",
-    },
+      label: "0zii LinkedIn",
+      url: "",
+    }
   ],
   // Use for user info
-  userName: "Lam Pham", // Username to display in the author segment.
-  userEmail: "dev@completejavascript.com", // Email used for RSS feed"s author segment
-  userTwitter: "CmpltJavaScript", // Optionally renders "Follow Me" in the UserInfo segment.
-  userLocation: "Hanoi, Vietnam", // User location to display in the author segment.
+  userName: "Ra youngji", // Username to display in the author segment.
+  userEmail: "dudwl7676@naver.com", // Email used for RSS feed"s author segment
+  userTwitter: "", // Optionally renders "Follow Me" in the UserInfo segment.
+  userLocation: "Korea", // User location to display in the author segment.
   userAvatar:
     "https://www.gravatar.com/avatar/42fd3d526fde1ef76d5002e4ebd303e9.jpg?s=300", // User avatar to display in the author segment.
   userDescription:
-    "Software Engineer, Web Developer, JavaScript Lover & Blogger @completejavascript.", // User description to display in the author segment.
+    "Software Engineer, BackEnd Developer", // User description to display in the author segment.
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
   userLinks: [
     {
       label: "Email",
-      url: "mailto:dev@completejavascript.com",
+      url: "dudwl7676@naver.com",
       iconClassName: "far envelope",
-    },
-    {
-      label: "Website",
-      url: "https://completejavascript.com/",
-      iconClassName: "fas globe",
-    },
-    {
-      label: "Twitter",
-      url: "https://twitter.com/CmpltJavaScript",
-      iconClassName: "fab twitter",
-    },
-    {
-      label: "Facebook",
-      url: "https://www.facebook.com/completejavascript/",
-      iconClassName: "fab facebook-f",
     },
     {
       label: "Linkedin",
@@ -114,10 +95,10 @@ const config = {
     },
   ],
   // Use for navigation
-  navTitle: "GB Template",
+  navTitle: "개발 기록 일지",
   navLinks: [
-    { label: "About", url: "/about" },
-    { label: "Contact", url: "/contact" },
+    { label: "Introduce", url: "/about" },
+    { label: "Posts", url: "/" },
   ],
   // Use for footer
   socialLinks: [
@@ -126,47 +107,14 @@ const config = {
     //   url: "https://codepen.io/completejavascript/",
     //   iconClassName: "fab codepen",
     // },
-    // {
-    //   label: "FreeCodeCamp",
-    //   url: "", // Ignore
-    //   iconClassName: "fab free-code-camp",
-    // },
-    // {
-    //   label: "GitHub",
-    //   url: "https://github.com/completejavascript",
-    //   iconClassName: "fab github",
-    // },
-    // {
-    //   label: "Facebook",
-    //   url: "https://www.facebook.com/completejavascript/",
-    //   iconClassName: "fab facebook-f",
-    // },
-    // {
-    //   label: "Linkedin",
-    //   url: "https://www.linkedin.com/in/completejavascript/",
-    //   iconClassName: "fab linkedin-in",
-    // },
-    // {
-    //   label: "Twitter",
-    //   url: "https://twitter.com/CmpltJavaScript",
-    //   iconClassName: "fab twitter",
-    // },
-    // {
-    //   label: "RSS",
-    //   url: "https://gb-template.netlify.com/rss.xml",
-    //   iconClassName: "fas rss",
-    // },
   ],
   footerLinks: [
     { label: "Home", url: "/" },
     { label: "About", url: "/about" },
     { label: "Contact", url: "/contact" },
-    { label: "Terms of Use", url: "/terms" },
-    { label: "Privacy Policy", url: "/privacy" },
-    { label: "Sitemap", url: "https://gb-template.netlify.com/sitemap.xml" },
   ],
   copyright:
-    "Copyright © 2019-2022 Lam Pham. Unless otherwise noted, all code MIT license.",
+    "©0zii, Built with Gatsby-blog-template",
   // Use for manifest
   themeColor: "#2196F3", // Used for setting manifest and progress theme colors.
   backgroundColor: "#FFF", // Used for setting manifest background color.
