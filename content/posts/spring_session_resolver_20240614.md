@@ -3,10 +3,10 @@ template: "post"
 title: "Spring Session에서 제공하는 주요 세션 ID Resolver 정리"
 cover: "../images/레디스.png"
 date: "2024-06-14T12:01:00Z"
-slug: "Spring Session"
-keywords: "spring Session"::
+slug: "spring_session_resolver_20240614"
+keywords: "spring Session"
 categories:
-- basic category
+- Spring Session
 tags:
 - Spring Session
 ---
